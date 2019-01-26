@@ -1,0 +1,381 @@
+This_is_a_EB-Simulation_file 
+version : 2;
+
+Electrone 
+{ 
+   name : Elektron0  ;
+   position : 32.000000, 0.000000, 10.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron1  ;
+   position : 32.000000, 0.000000, 9.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron2  ;
+   position : 32.000000, 0.000000, 8.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron3  ;
+   position : 32.000000, 0.000000, 7.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron4  ;
+   position : 32.000000, 0.000000, 6.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron5  ;
+   position : 32.000000, 0.000000, 5.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron6  ;
+   position : 32.000000, 0.000000, 4.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron7  ;
+   position : 32.000000, 0.000000, 3.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron8  ;
+   position : 32.000000, 0.000000, 2.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron9  ;
+   position : 32.000000, 0.000000, 1.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron10  ;
+   position : 32.000000, 0.000000, 0.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron11  ;
+   position : 32.000000, 0.000000, -1.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron12  ;
+   position : 32.000000, 0.000000, -2.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron13  ;
+   position : 32.000000, 0.000000, -3.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron14  ;
+   position : 32.000000, 0.000000, -4.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron15  ;
+   position : 32.000000, 0.000000, -5.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron16  ;
+   position : 32.000000, 0.000000, -6.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron17  ;
+   position : 32.000000, 0.000000, -7.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron18  ;
+   position : 32.000000, 0.000000, -8.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron19  ;
+   position : 32.000000, 0.000000, -9.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron20  ;
+   position : 32.000000, 0.000000, -10.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron21  ;
+   position : -8.000000, 0.000000, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 0;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+} 
+
+Electrone 
+{ 
+   name : Elektron22  ;
+   position : -8.000000, 0.000000, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 0;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+} 
+
+Electrone 
+{ 
+   name : Elektron23 ;
+   position : 32.000000, 0.000000, 11.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron24 ;
+   position : 32.000000, 0.000000, 12.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron25 ;
+   position : 32.000000, 0.000000, -11.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron26 ;
+   position : 32.000000, 0.000000, -12.000000;
+   speed : -0.300000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 0;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+   bShowTrace : 1;
+} 
+

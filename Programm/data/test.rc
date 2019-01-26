@@ -1,0 +1,16 @@
+BITMAP BITMAP L"bitmap/Menu.bmp"
+
+CURSOR_10 CURSOR "Cursor_14.cur"
+
+CURSOR_12 CURSOR "Cursor_15.cur"
+
+CURSOR_18 CURSOR "Cursor_16.cur"
+
+CURSOR_8 CURSOR "Cursor_17.cur"
+
+CURSOR_ROTATE CURSOR "Cursor_19.cur"
+
+ICON ICON "Icon_4.ico"
+
+1 24 "Data_5.bin"
+

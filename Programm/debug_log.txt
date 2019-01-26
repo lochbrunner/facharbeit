@@ -1,0 +1,51 @@
+"EB_Simulation.exe": "C:\WINDOWS\system32\ntdll.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\kernel32.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\d3dx9d_34.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\msvcrt.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\user32.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\gdi32.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\advapi32.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\rpcrt4.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\d3d9.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\d3d8thk.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\version.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\winmm.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\comctl32.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\imm32.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\uxtheme.dll" geladen, Keine Symbole geladen.    <-- bishierher kopiert
+"EB_Simulation.exe": "C:\Programme\YzShadow\YzShadow.dll" geladen, Die Binärdaten wurden nicht mit Debuginformationen erstellt.
+"EB_Simulation.exe": "C:\WINDOWS\system32\msctf.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\nview.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\shlwapi.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\shell32.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\psapi.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\ole32.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\oleaut32.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03\comctl32.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\ntmarta.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\wldap32.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\samlib.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\nvwrsde.dll" geladen, Die Binärdaten wurden nicht mit Debuginformationen erstellt.
+"EB_Simulation.exe": "C:\Programme\UberIcon\UberIcon.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\msctfime.ime" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\nvwimg.dll" geladen, Die Binärdaten wurden nicht mit Debuginformationen erstellt.
+"EB_Simulation.exe": "C:\WINDOWS\system32\nvwimg.dll" entladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\nvwddi.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\Programme\OneStepSearch\onestep.dll" geladen, Die Binärdaten wurden nicht mit Debuginformationen erstellt.
+"EB_Simulation.exe": "C:\WINDOWS\system32\wininet.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\normaliz.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\iertutil.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\ws2_32.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\ws2help.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\mpr.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\wintrust.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\crypt32.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\msasn1.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\imagehlp.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\setupapi.dll" geladen, Keine Symbole geladen.
+D3DX: Unicode support: 1
+"EB_Simulation.exe": "C:\WINDOWS\system32\nvwimg.dll" geladen, Die Binärdaten wurden nicht mit Debuginformationen erstellt.
+"EB_Simulation.exe": "C:\WINDOWS\system32\nvwimg.dll" entladen.
+"EB_Simulation.exe": "C:\Programme\WinRoll\winroll.dll" geladen, Die Binärdaten wurden nicht mit Debuginformationen erstellt.
+"EB_Simulation.exe": "C:\WINDOWS\system32\nvwimg.dll" geladen, Keine Symbole geladen.
+"EB_Simulation.exe": "C:\WINDOWS\system32\nvwimg.dll" entladen.

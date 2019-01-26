@@ -1,0 +1,86 @@
+%%
+% Einbinden der Dokumentklasse
+\documentclass[12pt]{article}
+%%
+% Einbinden der Packages
+\usepackage{german}
+\usepackage{a4wide}
+\usepackage{ngerman}
+\usepackage[latin1]{inputenc}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{chngpage}
+\usepackage{listings}
+%\usepackage{float}
+%\usepackage{floatflt}
+\usepackage{pst-3dplot}
+\usepackage{epsfig} 			%  für eps graphiken
+\usepackage[ngerman]{babel}
+\usepackage{bbm}
+%\usepackege{amssymb}
+%%
+% Einstellen 1,5fachen Zeilenabstand
+\onehalfspacing
+
+\title{Facharbeit -  Coumputer Simulation von geladenen Teilchen im elektrischen und magnetischen Feld} 
+\author{Matthias Lochbrunner}
+\date{\today}
+
+%%
+% Start des Dokumentes
+\begin{document}
+
+%	\pdfinfo { 
+%  	/Title (Coumputer Simulation von geladenen Teilchen im elektrischen und magnetischen Feld) 
+%  	/Creator (PDFLaTeX) 
+%  	/Producer (SKG-Krumbach) 
+%  	/Author (Matthias Lochbrunner) 
+%  	/CreationDate (\today) 
+%  	/ModDate (\today) 
+%  	/Subject (Facharbeit 2007-2008) 
+%  	/Keywords (Facharbeit) 
+%	}
+
+	%%
+	% Einbinden Titelseite
+	\include{titelseite}
+
+	%%
+	% Inhaltsverzeichnis
+	\tableofcontents
+	
+	\thispagestyle{empty}
+
+
+	% Keine Nummerierung im Inhaltsverzeichnis
+	\thispagestyle{empty}
+
+	\newpage
+	% Einstellen des Textlayouts auf Vorgaben für Facharbeiten
+		\setlength{\hoffset}{-1in}
+		\setlength{\voffset}{-1in}
+		\setlength{\textwidth}{0cm}
+		\changetext{3cm}{15cm}{2cm}{4cm}{}
+		\setlength{\topmargin}{1.4cm}
+	
+	%%
+	% Einbinden des Haupttextes
+	\include{Einleitung}
+	\include{text}
+	
+	%%
+% Tabellen- und Abbildungsverzeichnis.
+% Falls benötigt, einfach die %-Zeichen vor
+% den Befehlen entfernen
+%%
+		%\listoftables
+		\listoffigures
+		\lstlistoflistings
+		
+		\input{Quellenverzeichniss}
+
+	%%
+	% Einbinden der Schlusserklärung
+	\include{erklaerung}
+
+\end{document}

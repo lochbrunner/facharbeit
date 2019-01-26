@@ -1,0 +1,20 @@
+This_is_a_EB-Simulation_file 
+version : 2;
+
+Sphere 
+{ 
+   name : DefaultSphere0 ;
+   position : 0.000000, 0.000000, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 4.802367;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+

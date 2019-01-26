@@ -1,0 +1,29 @@
+\contentsline {section}{\numberline {1}Einf\"uhrung zum Thema}{3}
+\contentsline {section}{\numberline {2}Kurze Bedienungsanleitung}{5}
+\contentsline {subsection}{\numberline {2.1}Installation}{5}
+\contentsline {subsection}{\numberline {2.2}Freie Kamerabewegung}{5}
+\contentsline {subsection}{\numberline {2.3}Arbeiten im dreidimensionalen Raum}{6}
+\contentsline {subsection}{\numberline {2.4}Arbeiten mit der "`Channelbox"'}{6}
+\contentsline {subsection}{\numberline {2.5}Szene animieren}{7}
+\contentsline {section}{\numberline {3}Eingebettete physikalische Gesetze}{7}
+\contentsline {subsection}{\numberline {3.1}Elektrostatik}{7}
+\contentsline {subsubsection}{\numberline {3.1.1}Coulombsche Gesetz}{7}
+\contentsline {subsubsection}{\numberline {3.1.2}Programmiertechnische Umsetzung}{8}
+\contentsline {subsubsection}{\numberline {3.1.3}Problem des quadratischen Abstandgesetzes}{9}
+\contentsline {subsection}{\numberline {3.2}Magnetisches Feld}{9}
+\contentsline {subsubsection}{\numberline {3.2.1}Physikalischer Hintergrund}{9}
+\contentsline {subsubsection}{\numberline {3.2.2}Programmiertechnische Umsetzung}{9}
+\contentsline {subsubsection}{\numberline {3.2.3}Problem der endlichen Zeiteinteilung}{10}
+\contentsline {section}{\numberline {4}Objekte}{12}
+\contentsline {subsection}{\numberline {4.1}Elementarteilchen}{12}
+\contentsline {subsection}{\numberline {4.2}Homogene Felder}{12}
+\contentsline {subsection}{\numberline {4.3}Kondensatorplatte}{13}
+\contentsline {subsection}{\numberline {4.4}"`Emitter"'}{13}
+\contentsline {section}{\numberline {5}Halbschrittverfahren}{15}
+\contentsline {subsection}{\numberline {5.1}Verfahren von Heun}{15}
+\contentsline {subsection}{\numberline {5.2}Programiertechnische Anwendung}{16}
+\contentsline {section}{\numberline {6}Versuchsaufbauten}{17}
+\contentsline {subsection}{\numberline {6.1}Wasserstoffatom}{17}
+\contentsline {subsection}{\numberline {6.2}Rutherford-Versuch}{17}
+\contentsline {subsection}{\numberline {6.3}WIEN-Filter}{18}
+\contentsline {section}{\numberline {7}Grenzen computergest\"utzter Simulationen}{19}

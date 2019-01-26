@@ -1,0 +1,73 @@
+	body{
+		//background-color: #f4f2eb;
+		//background-color: #fdb;
+		background-color: #fca;
+		color: #000;
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;
+	}
+	
+	a{
+		color: #f00;
+		padding: 0 0 0 0;
+		margin: 0px 0px 0px 0px;
+		border: 0px 0px 0px 0px;
+		text-decoration:none;
+	}
+	
+	a:hover,
+	a:focus{
+		color: #f50;
+	}
+	
+	div#top{
+		background-color: #fdb;
+		text-align: center;
+		margin: 0px 0px 0px 0px;
+		padding: 10px 10px 10px 10px;
+		
+	}
+	
+	div#toolbar{
+		float:center;
+		background-color: #fb8;
+		height: 40px;
+	}
+	
+	ul#steuerung{
+		visibile: ds;
+	}
+	
+	div#main{
+		float:center;
+	//	text-align: center;
+		height: 100%;
+		padding: 20px 20px 20px 320px;
+		border: 120px 120px 120px 120px;
+		//margin: 20px 20px 20px 20px;
+		background-color: #fca;
+
+	
+	}
+	
+	div#side-left{
+		float: left;
+		width: 220px;
+		height: 100%;
+		border: 20px 20px 20px 20px;
+		border-color: #000;
+		padding: 20px 20px 20px 20px;
+		background-color: #fc9;
+		
+		//border:1px solid #aaaaaa;
+	}
+	
+	 div#main>*{
+	//	padding: 0px 0px 0px 0px;
+	}
+	
+	li{
+		margin: 0px 0px 0px 0px;
+		border: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+	}

@@ -1,0 +1,373 @@
+\section{Kurze Bedienungsanleitung}
+
+\subsection{Installation}
+
+Vor der Installation sollte sichergestellt sein, dass auf dem PC ein lauffähiges "`Windows XP"' mit Service Pack 2 installiert ist und eine aktuelle Version der Hardwareschnittstelle "`DirectX 9.0c"' oder neuer bereits Verwendung findet. Da die Simulation bereits mit dem "`DirectX SDK"' von 2007 geschrieben wurde, empfiehlt es sich gegeben falls, die "`Runtime"' Version auf dem PC zu aktualisieren \footnote{Download : http://www.microsoft.com/downloads/details.aspx?displaylang=de\&FamilyID=2da43d38-db71-4c1b-bc6a-9b6652cd92a3}. \\
+Nach Einlegen der CD in das Laufwerk erscheint automatisch ein mit "`Install Creater"' erzeugtes Installationsfenster. Sollte das Fenster nicht automatisch erscheinen, kann das Setup auf der CD auch manuell unter \textsl{/Software/Setup.exe} gestartet werden. Die Anweisungen des Installationsassistenten erklären sich selbst. Nach erfolgreicher Installation erhält das Programm nun im \textsl{Startmenü}, unter \textsl{alle Progamme} einen Eintrag. 
+Ebenfalls sind auf der CD noch weitere Dateien bezüglich dieser Facharbeit zu finden. So z.B. dieses Skript als pdf-Datei, sowie der Quellcode des Programms und noch zusätzliche Materialien. Gegebenenfalls muss dazu die CD im \textsl{Arbeitsplatz} mit Rechtsklick, \textsl{Öffnen}, da bei einem Doppelkick der \textsl{autorun} der CD das Installationsprogramm starten würde.
+
+
+\subsection{Freie Kamerabewegung}
+
+Das Gedrückthalten der \textsl{Alt}-Taste signalisiert dem Programm, dass die Maus nun zur Steuerung der Kamera verwendet wird.
+Jetzt lässt sich mit der mittleren Maustaste die Szene parallel zur Sichtebene verschieben, wobei der Cursor ein anderes Symbol erhält, eines mit einem Pfeil in jede Himmelsrichtung. Um sich im Raum zu drehen wird die linke Maustaste verwendet. Jede Drehung erfolgt immer um einen bestimmten Mittelpunkt. Dieser ist entweder die Position des zuletzt markierten Elements in der Szene, oder falls nichts markiert wurde, der Ursprung im Koordinatensystem. Als Cursor erscheinen nun zwei im Kreis laufende Pfeile.
+Der Zoom bzw. der Abstand der Kamera zur Szene wird mit der rechten Maustaste verändert. Hier gilt: Wird die Maus nach links oben verschoben, wird aus der Szene herausgezoomt, beim Verschieben nach rechts unten hineingezoomt. Allerdings ist zu beachten, dass der Zoom nicht linear zur Mausbewegung berechnet wird, sondern exponential. So wird ein für die meisten Situationen praktischeres und gleichsam harmonisches Zoomen ermöglicht.
+Des Öfteren kann es passieren, dass man sich irgendwo im Raum verliert und keine Orientierung mehr hat. Hierfür ist der Hotkey \textsl{F} gedacht, welcher die Kamera auf das zuletzt markierte Element zentriert bzw. auf den Ursprung.
+
+
+\subsection{Arbeiten im dreidimensionalen Raum}
+
+In der Simulation stehen zwei Werkzeuge (englisch: "`Tools"') zur Verfügung: Eines um markierte Elemente zu Verschieben und ein Anderes um bestimmte Objekte, wie Kugeln und Kondensatorplatten , zu skalieren. Bei beiden Werkzeugen gilt stets die "`Dreifarbenregel"', die auch bei vielen anderen Animationsprogrammen Anwendung findet. Die drei Koordinatenachsen werden durch die drei Grundfarben repräsentiert: Rot für die X-Achse, Grün für die Y-Achse und Blau für die Z-Achse. Mit dem Hotkey \textsl{W} wird zu dem Verschiebungswerkzeug gewechselt, mit dem Hotkey \textsl{E} zum Skalierwerkzeug. Durch erneutes Drücken der jeweiligen Taste wird das Werkzeug ausgeblendet. Das Skalierwerkzeug erkennt man an den drei Pfeilen, die immer in die positive Richtung zeigen. Elemente werden verschoben, indem man die Pfeilspitzen des Werkzeuges mit der linken Maustaste anklickt und die Maus dann mit gedrückter Taste in die gewünschte Richtung schiebt. Oft ist es notwendig, die Szene aus dem richtigen Blickwinkel zu betrachten, um leichter arbeiten zu können. Äquivalent verhält es sich mit dem Skalierwerkzeug, zu erkennen an den drei Würfeln. Der Betrag der Veränderungen entlang der Koordinatenachsen wird mit Hilfe eines trigometrischen Ansatzes berechnet, wodurch es nach längerer Zeit leider zu Unregelmäßigkeiten kommen kann. Auch die wechselhafte Entfernung zur Kamera tut ihr Übriges dazu.
+
+
+\subsection{Arbeiten mit der "`Channelbox"'}
+
+Um genaue Angaben zu einem Objekt machen zu können, wurde der Simulation ein Kontrollfenster, oder im Fachchargon auch "`Channelbox"' genannt, hinzugefügt, mit dem der Benutzer in der Lage ist jeden Wert des markierten Elements genau angeben zu können. Das Kontrollfenster lässt sich im \textsl{Menü} unter dem Menüpunkt\textsl{Ansicht}, \textsl{weitere Fenster}, \textsl{Kontrollfenster} starten. Meist ist es jedoch schon zu Beginn zu sehen. Zu Beachten ist allerdings, dass nur manche Eigenschaften auf alle markierten Elemente gesetzt werden können. Angaben zu genauen Werten von z.B. Position oder Geschwindigkeit werden nur vom zuletzt markierten Element übernommen, da dieses in der Simulation einen besonderen Fokus erhält.
+Ebenfalls können von der \textsl{Channelbox} stets die genauen Werte abgelesen werden, die in einer ähnlichen Form, wie in den *.sim-Datein dargestellt sind. Dateien mit der Endung .sim werden dazu benutzt eine Szene abzuspeichern, welche zu einem späteren Zeitpunkt dann wieder geladen werden kann. Aufgrund technischer Schwierigkeiten ist es bereits noch nicht gelungen, diese Dateien direkt mit dem Programm öffnen zu lassen. Aber dennoch eignet sich dieses Dateiformat ausgezeichnet, es mit dem Microsoft Text-Editor oder irgendeinem anderen Text-Editor zu öffnen, um damit den Inhalt zu verändern. So lassen sich beispielsweise ohne das Starten der Anwendung neue Elemente erstellen und sie mit den gewünschten Werten versehen.
+
+
+\subsection{Szene animieren}
+
+Dem eigentlichen Zweck als Simulation genüge zu tun und der 3D-Szene Leben einzuhauchen, kann mithilfe der Funktionstaste \textsl{F2} die Animation gestartet werden, in der dann automatisch alle physikalischen Berechungen durchgeführt werden. Durch erneutes Drücken der Funktionstaste wird die Animation wieder gestoppt. Mit der \textsl{TAB}-Taste wird erreicht, dass nur das nächste Bild, auf englisch : "`Frame"', berechnet und angezeigt wird. So lässt sich die Animation schrittweise abspielen, wobei der Benutzer in komplexen Szenen meist besser in der Lage ist, den Überblick zu behalten.\\
+Eine weitere Erleichterung ist mit der Funktion, die Bahn eines Teilchens anzeigen zu lassen, gegeben. Somit lässt sich das Verhalten des Spurauslegers genauer analysieren und der Bertachter bekommt ein aussagekräftiges Bild von der Szene.
+
+\begin{figure}[h]
+	\centering
+		\epsfig{file=graphics/Spur_white.eps}
+	\caption{Spur eines Elektrons}
+	\label{fig:Spur eines Elektrons}
+\end{figure}
+
+
+\section{Eingebettete physikalische Gesetze}
+
+
+\subsection{Elektrostatik}
+
+\subsubsection{Coulombsche Gesetz}
+
+Setzt man ein geladenes Teilchen in ein elektisches Feld, z.B. in das eines Plattenkondensators, so erfährt es dort eine Kraftauswirkung, das abhängig vom Vorzeichen der Ladung, mit oder entgegengesetzt des Feldes gerichtet ist($F = q \cdot E$).
+Da aber auch geladene Körper selbst ein elektrische Feld erzeugen, stehen zwei geladene Teilchen stets in einer elektrostatischen Abhängigkeit. Man nennt diese das \textsl{Coulombsche Gesetz}.\\
+
+Coulomb-Gesetz für punktförmige Ladung\footnote{Quelle : Physik, Leistugskurs 1. Semester, Seite 61} : 
+
+\begin{displaymath}
+	\vec{F} = \frac{Q_1 \cdot Q_2}{4 \pi \cdot \epsilon_0} \cdot \frac{1}{r^3} \cdot \vec{r}
+\end{displaymath}
+
+\textbf{Erläuterungen :} 
+\begin{center}
+\begin{tabular}{lcl}
+	$ Q_1 $& : & Ladung des ersten Teilchens\\
+	$ Q_2 $& : & Ladung des zweiten Teilchens\\
+	$ \vec{r} $& : & Entfernung der beiden Teilchen\\
+	$ r $& : & Betrag von $ \vec{r} $\\
+\end{tabular}
+\end{center} 
+
+
+\subsubsection{Programmiertechnische Umsetzung}
+
+Bevor nun das \textsl{Gesetz von Coulomb} im Quellcode angewandt werden kann, muss zuerst der Radius, hier die Entfenung der beiden Teilchen, mithilfe des Satzes von Pythagoras ermittelt werden. Danach lässt sich die Formel trivial anwenden :
+
+\begin{center}
+\begin{tabular}{|lcrcl|}
+
+ 	\hline &&&& \\
+	
+	Satz von Pythagoras  & : & $ d $ & $ = $ & $ \sqrt{a^2 + b^2 + c^2} $  \\ &&&& \\
+	
+	Daraus folgt für den Betrag von $\vec{r}$ & : & $ |\vec{r}| $ & $ = $ & $ \sqrt{\vec{r_x}^2 + \vec{r_y}^2 + \vec{r_z}^2} $ \\ &&&& \\
+	
+	Eingestzt in das Coulombsche Gesetz &  : & $ \vec{F} $ & $ = $ & $ Konstante  \cdot \vec{r} \div |\vec{r}|^3$ \\ &&&& \\
+	
+	\hline
+	 
+\end{tabular}
+\end{center} 
+\vspace{0.2 cm}
+
+\textbf{Bemerkung :} Da in der gesamten Simulation keinerlei Wert auf Maßstabstreue gelegt wird, fällt die \textsl{Konstante} im Quellcode schlicht weg.\\ 
+
+Das Ganze zu einer Funktion namens \textsl{ForceElectrical(...)} zusammengefasst:
+
+\tiny
+\lstset{language=C++}
+\lstinputlisting[breaklines=true, numbers=left, numberstyle=\tiny, firstline=798,  lastline=807, frame=tlrb, caption={Quellcodeausschnitt aus Physics.cpp, Zeile 798 - 807}]{Quellcode/Physics.cpp}
+\normalsize
+
+\textbf{Erläuterungen :} 
+\begin{center}
+\begin{tabular}{lcl}
+	\textsl{DrivenPosition} & : & Position des Teilchens, auf das die \textsl{Coulombkraft} wirkt\\
+	\textsl{DriverPosition} & : & Position des Teilchens, das die \textsl{Coulombkraft} hervorruft \\
+	\textsl{Distance} & : & Entfernung der beiden Teichen ( $|\vec{r}|$ )\\
+\end{tabular}
+\end{center} 
+
+
+\subsubsection{Problem des quadratischen Abstandgesetzes}
+% zu überarbeiten
+Soweit die Theorie. Leider tritt bei dieser Konstellation nicht selten das Phänomen auf, dass ein Elektron, das soeben noch ein Proton umkreist hat, plötzlich katapultartig in den Weiten des Raumes verschwindet, ohne dass dies irgendeiner physikalischen Gesetzmäßigkeit folgt. Dies passiert ganau dann, wenn sich ein Elektron einem Proton so sehr genähert hat, dass bei der Berechnung der Beschleunigungskraft der Wert so groß ist, dass dieser das Elektron beim nächsten Rechenschritt derart weit vom Proton entfernt, dass die jetzige Kraftwirkung, die die Elementarteilchen wieder vereinen sollte einen vernachlässigbar kleinen Wert annimmt.
+
+
+\subsection{Magnetisches Feld}
+
+\subsubsection{Physikalischer Hintergrund}
+
+"`Bewegen sich positive Ladungsträger senkrecht zu den Magnetfeldlinien, so erfahren sie eine Kraft  $ \vec{F_1} $, die sich mit der Drei-Finger-Regel der rechten Hand bestimmen läßt "' \footnote{Quelle : Physik, Leistugskurs 1. Semester, Seite 110/111}. Natürlich gilt dies auch für negative Ladungsträger, wenn man die linke Hand zu Rat zieht. Man nennt diese Kraft \textsl{Lorenzkraft}, mit der allgemeinen Gleichung:
+
+\begin{displaymath}
+	F = q \cdot v \cdot B
+\end{displaymath}
+
+\textbf{Bemerkung :} Alle drei Vektoren, $\vec{F}$, $\vec{v}$ und $\vec{B}$, stehen jeweils senkrecht zueinander. 
+
+
+\subsubsection{Programmiertechnische Umsetzung}
+
+Um einen Wirkungsvektor aus den gegebenen Größen berechnen zu können, müssen zunächst alle Angaben in ihre Komponenten aufgeteilt werden und dann jede zu berechnende Wirkungskomponente aus dem Produkt der entsprechenden Geschwindigkeits- und Feldkomponente ermittlet werden. 
+
+\begin{center}
+\begin{tabular}{|lcrcl|}
+
+ 	\hline &&&& \\
+	
+	Lorenzkraft  & : & $ F $ & $ = $ & $ q \cdot v \cdot B $  \\ &&&& \\
+	
+	Daraus folgt & : & $ F_{x1} $ & $ = $ & $ q \cdot v_{y} \cdot B_{z} $ \\ 
+							 &   & $ F_{x2} $ & $ = $ & $ q \cdot v_{z} \cdot B_{y} $ \\ 
+	
+							 &   & $ F_{y1} $ & $ = $ & $ q \cdot v_{x} \cdot B_{z} $ \\ 
+							 &   & $ F_{y2} $ & $ = $ & $ q \cdot v_{z} \cdot B_{x} $ \\ 
+	
+							 &   & $ F_{z1} $ & $ = $ & $ q \cdot v_{x} \cdot B_{y} $ \\ &&&& \\
+							 &   & $ F_{z2} $ & $ = $ & $ q \cdot v_{y} \cdot B_{x} $ \\ &&&& \\
+	
+	\hline
+	 
+\end{tabular}
+\end{center} 
+\vspace{0.2 cm}
+
+Die somit ermittelten 6 Gleichungen, jeweils zwei für jede Koordinatenachse, lassen sich nun zu einem Kraft- bzw. Beschleunigungsvektor addieren. Allerdings wurde bis jetzt noch kein Blick auf die Vorzeichen der einzellnen Teilergebnisse geworfen. Diese lassen sich jedoch mithilfe der "`Dreifingerregel"' relativ leicht bestimmen.
+
+\tiny
+\lstset{language=C++}
+\lstinputlisting[breaklines=true, numbers=left, numberstyle=\tiny, firstline=768,  lastline=781, frame=tlrb, caption={Quellcodeausschnitt aus PhysicsOld.cpp, Zeile 768 - 781}]{Quellcode/PhysicsOld.cpp}
+\normalsize
+
+\textbf{Bemerkung :} Der Faktor $ q $ wird außerhalb der Funktion behandelt.
+
+\subsubsection{Problem der endlichen Zeiteinteilung}
+
+Leider scheint diese Rechung nicht ganz die Realität zu beschreiben, denn bei der Ausführung dieses Codes werden die Teilchen im Magnetfeld stets schneller, wohingegen kein Grund dazu besteht. Vielmehr wiederspricht dieses Phänomen sogar dem Energieerhaltungssatz von \textsl{Newton}. Bei genauerer Betrachtung des Rechenmodells fällt dabei folgendes auf:
+
+\begin{figure}[h]
+	\centering
+		\epsfig{file=graphics/Pythagoras_small.eps}
+	\caption{Pythagoras der magnetischen Beschleunigung}
+	\label{fig:Pythagoras der magnetischen Beschleunigung}
+\end{figure}
+
+Rechnerisch Zusammengefasst :
+
+\begin{center}
+\begin{tabular}{|lcrcl|}
+
+ 	\hline &&&& \\
+	Satz des Pythagoras  & : & $ c $ & $ = $ & $ \sqrt{a^2 + b^2} $ \\ &&&& \\
+	
+	Daraus folgt für $ b \neq 0 $ & : &  $ c $ & $ > $ & $ a $ \\ &&&& \\
+	\hline
+	 
+\end{tabular}
+\end{center} 
+\vspace{0.2 cm}
+
+Laut dieser Gleichung müsste die Geschwindigkeit immer größer werden; zwar nicht in besonders großem Maße, aber dennoch mit der Zeit deutlich spürbar. In der Natur hat $b$ jedoch keinen endlichen Wert, sondern einen infinitisimal kleinen , wodurch sich $c$  und damit auch der Betrag der Geschwindigkeit nicht verändert. Dieser unerwünschte Effekt lässt sich durch einen kleinen Eingriff in der Berechung nahezu eliminieren. Hier kommt die Konstante \textsl{MAGNETICAL\_HOLD} ins Spiel. Mit ihr wird versucht der fälschlich eingeschlichenen Beschleunigung entgegen zu wirken. Der Wert der Größe wurde experimental ermittelt und unterliegt dadurch auch einer gewissen Ungenauigkeit.
+Genauere Untersuchungen, die Erläuterung dazu würde den Rahmen dieser Facharbeit sprengen, ergeben, dass die Abweichung vom Quadrat der Felstärke abhängt. Nach weiteren Umformungen ergibt sich dann daraus folgende Funktion:
+
+%genauere Angaben zur Berechnung... \\
+
+%Daher jetzt die endgültige Funktion:
+\tiny
+\lstset{language=C++}
+\lstinputlisting[breaklines=true, numbers=left, numberstyle=\tiny, firstline=810,  lastline=835 , frame=tlrb, caption={Quellcodeausschnitt aus Physics.cpp, Zeile 810 - 835}]{Quellcode/Physics.cpp}
+\normalsize
+
+\section{Objekte}
+
+\subsection{Elementarteilchen}
+
+Die Grundlage dieser Simulation dürften wohl die Elementarteilchen sein. Mit ihnen werden nehezu alle Versuche durchgeführt. Das sind die positiv geladenen Elektronen so wie das negative Gegenstück das Elektron. Da wie oben schon erwähnt in diesem Programm keine der wirklichkeit entsprechenden Maßstäbe zum Einsatz kommen, genügt hier die Annäherung in der das Proton die 1000-fache Masse des Elektrons besitzt. Dies entspricht sogar in etwa dem natürlichen Wert. Diese Objekte sind in der Simulation unter \textsl{Hinzufügen $->$ Mikroteilchen $->$ Proton } bzw. \textsl{Elektonen} zu finden. Sollte mal einmal die Elementarteilchen für einen Versuch ungeeignet sein, so besteht noch die Möglichkeit einen Versuchskörper zu erstellen, bei dem alle Werte manuell anzugeben sind. Vergleichber mit einer Metallkugel sind hier zusätzlich Angaben zur Größe und Ladung möglich. Zu finden unter \textsl{Hinzufügen $->$ Makroteilchen $->$ Metallkugel }. Bei disem Element kann nun auch das oben genannte \textsl{Skalierwerkzeug} angewandt werden.
+
+\begin{figure}[h]
+	\centering
+		\epsfig{file=graphics/el_pr_de_white_small.eps}
+	\caption{Elementarteilchen}
+	\label{fig:Elementarteilchen}
+\end{figure}
+
+\subsection{Homogene Felder}
+
+Um dem Aufrag gerecht zu werden und eine "`Computersimulation geladerner Teilchen in elektrischen und magnetischen Feldern"' zu erhalten, befinden sich natürlich auch homogene Felder im Reportua dieses Programms. Alle zu finden unter \textsl{Hinzufügen $->$ Homogene Felder}. Hier stehen dem Benutzer drei Feldarten zur Auswahl: Das elektrische Feld, das magnetische Feld und das Gravitationsfeld. Aufgrund ihrer homogenen Eigenschaft können diese überall im Raum versetzt werden, ohne das es irgendeinen Einfluss auf das Geschehen nimmt. Wesentlich ist nur der Feldvektor, der mithilfe der \textsl{Channelbox} eingeblendet werden kann. Dieser lässt sich wahlweise ebenfalls mit der \textsl{Channelbox} oder mit dem \textsl{Verschiebewerkzeug} zurecht drehen.
+Auch das Drehen und Sklalieren des Wirkungsvektors eines Gravitationfeldes ist möglich. Mit ihm lassen sich z.B. Perabelbahnen des freien Falls sehr schön darstellen. Zusammenfassend sind die homogenen Felder einfache Elemente, die ein relativ komplexeres System von z.B. Kondensatorplatten oder Helmholzspulenpaare stellvertretend ersetzen.
+
+\begin{figure}[h]
+	\centering
+		\epsfig{file=graphics/Felder_white_small.eps}
+	\caption{Homogene Felder}
+	\label{fig:Homogene Felder}
+\end{figure}
+
+
+\subsection{Kondensatorplatte}
+
+Da homogene Felder für manche Versuche nicht ausreichen könnten, weil sie z.B. einen unbegrenzten Wirkungsereich besitzen, kann das elektrische Feld auch durch zwei Kondensatorplatten ersetzt werden, welche ein inhomogenes Feld erzeugen. Das Verwenden von Kondensatorplatten ist allerdings ungleich komplizierter: Hier muss zunächst die Anzahl der Aufteilungen bestimmt werden. Dies ist wichtig, damit das Programm weiß, mit wie vielen "`Ladungseinheiten"' es rechnen soll. Da ein Simulation von Milliarden positiver bzw. negativer Ladungen ein Ding der Unmöglichkeit wär, beschrenkt sich dieses Programm auf eine geringere Anzahl, die der Benutzer selber angeben sollte. Die als Standartwert angegebenen zwei Aufteilungen eignen sich nicht besonders gut um das elektrische Feld eines Kondensators realistisch zu simulieren. Der Wert der hier zu wählen ist hängt von der Anzahl der Elementarteilchen ab, die sich in der Szene befinden und von der CPU-Leistung des Rechners, da dies bei Werten im dreistelligen Bereich sehr rechenaufwändig ist. Je höher der gewählte Wert, desto genauer das inhomogene Feld und desto höher sómit der Realitätgrad. Sobald eine neue Anzahl in der \textsl{Channelbox} eingegeben wurde, beginnt das Programm ein naturgemäße Verteilung der Elementarladungen. Dieser Vorgang kann dann durchaus 15 Minuten dauern und sollte nach dem endgültigen Skalieren der Platte manuell wiederholt werden.
+
+\begin{figure}[h]
+	\centering
+		\epsfig{file=graphics/ladungsverteilung_white_small.eps}
+	\caption{Kondensatorplatte}
+	\label{fig:Kondensatorplatte}
+\end{figure}
+
+
+\subsection{"`Emitter"'}
+
+Der Emitter (lat. emittere = aussenden; ausstoßen) stellt eine flexible Elektronenkanone der Szene dar, welche dazu verwendet werden kann, andauernd Elektronen auszusenden. Der Vorteil dieses Instruments gegenüber seines realen Gegenstücks liegt in der Vielzahl der Einstellungsmöglichkeiten. Hier lassen sich neben der Position des Geräts auch Richtung und Betrag der auszustoßenden Teilchen angeben, und um wieviel von diesem Wert abgewichen werden darf. Da eine Elektronenkanone, bei der jedes Elektron genau den selben Geschwindigkeitsvektor bekäme, recht ausdrucksschwach wäre, weicht hier jedes Teilchen in der Startgeschwindigkeit um einen pseudozufälligen Vektor ab, der in der \textsl{Channelbox} unter den Feldern \textsl{Zufall X, Zufall Y und Zufall Z} indivieduell skaliert werden kann. Soll in einer Richtung keine Abweichung stattfinden ist hier der Wert Null einzugeben. Auch der zeitliche Abstand mit der die Ladungsträger das Gerät verlassen lässt sich manuell vorherbestimmen. Die Einheit des Abstand ist allerdings "`Frames\footnote{Bilder die am PC dargestellt werden}"' und nicht Sekunden oder sonst eine feste Zeiteinheit.
+
+\begin{figure}[h]
+	\centering
+		\epsfig{file=graphics/Emitter_mit_Elektronenspur_white.eps}
+	\caption{Emitter}
+	\label{fig:Emitter_mit_Elektronenspur}
+\end{figure}
+
+
+\section{Halbschrittverfahren}
+
+\subsection{Verfahren von Heun}
+
+Ende des 19. Jahrhunderts beschäftigte sich der Mathematiker und Philosoph Karl Heun mit der Berechung "`lnearer Differnzialgleichungen zweiter Ordnung, deren Lösungen durch den Kettenbruchalgortihmus verknüpft sind"'\footnote{Quelle : http://www-history.mcs.st-andrews.ac.uk/Biographies/Heun.html}. Unter anderm beschrieb er dort auch einen Therm der es ermöglicht, eine relativ gute Annäherung der Stammfunktion zu erhalten, wenn der Funktionstherm nur durch einzelne Werte beschrieben werden kann. Daher eignet er sich zum Beispiel gut bei der Berechnung von Planetenbahnen oder aber auch zur Berechnung Elementarteilchen in verschiedenen Feldern. Hier ist prinzipiell nur die Kraftwirkung gegeben, aus der dann über den Weg der Geschwindigkeit die Position des Teilchens bestimmt werden muss. Nach dem Hauptsatz der Integralrechnung ist also die Geschwindigkeit das Integral der Beschleunigung und die Position das Integral der Geschwindigkeit. Da die Beschleunigung jedoch nicht kontinuierlich berechnet wird, sondern nur alle X Millisekunden, läuft man leicht Gefahr, dass die daraus berechneten Integrale stark von der Wirklichkeit abweichen. Diese Gefahr lässt sich mit dem Verfahren von Heun zwar nicht vollständig auslöschen, aber dennoch stark minimieren.
+
+
+\begin{center}
+\begin{tabular}{|lcrcl|}
+
+ 	\hline &&&& \\
+	Es sei gegeben die Funktion  & : & $ f(x) $ & $ = $ & $ m \cdot x + t$ \\ &&&& \\
+	
+	Auf Grund der Linearität & : &  $ f(x_{1} + \Delta x) $ & $ = $ & $ f(x_{1}) + f'(x_{1}) \cdot \Delta x $  \\ &&&& \\
+
+	Daraus folgt nach Heun & : & 	$ f(x_{1} + \Delta x) $ & $ = $ & $ f(x_{1}) + \frac{f'(x_{1}) + f'(x_{1} + \Delta x) }{2} \cdot \Delta x $ \\ &&&& \\
+	\hline
+	 
+\end{tabular}
+\end{center}
+
+Was für die lineare Funktion exakt gilt, wendet Heun als Näherung auch bei nicht linearen Funktionen an. Dieses Verfahren hat sich in der Praxis sehr bewährt und findet daher häufig bei Simulationen Anwendung, die keinen vollständigen Funktionstherm besitzen \footnote{Quelle ( von 29.12.2007): http://www.acdca.ac.at/material/kl8/numerik.pdf}. \\
+%\begin{figure}[h]
+%	\centering
+%		\epsfig{file=graphics/halbschrittverfahren.eps}
+%	\caption{Halbschrittverfahren}
+%	\label{fig:halbschrittverfahren}
+%\end{figure}
+\textbf{Am Rande bemerkt:} Carl Runge und Martin Wilhelm Kutta erweiterten das Verfahren von Heun, indem sie noch zusätzlich in einem ganzen Schritt mehrere sogenannte "`Stützpunkte"' verteilten und die Ableitungen an diesen dann zur Berechnung des Mittels einfließen ließen.
+
+\begin{center}
+\begin{tabular}{|ll|}
+
+ 	\hline & \\
+	
+
+	Heun& :	$ f(x_{1} + \Delta x) =  f(x_{1}) + \frac{f'(x_{1}) + f'(x_{1} + \Delta x) }{2} \cdot
+		 \Delta x $ \\ & \\
+		 
+	Erweitert& :	$ f(x_{1} + \Delta x) = f(x_{1}) + \frac{f'(x_{1}) + 2 \cdot f'(x_{1} + \frac{1}{3} \cdot\Delta x)  + 2 \cdot f'(x_{1} + \frac{2}{3} \cdot\Delta x)+ f'(x_{1} + \Delta x) }{6} \cdot
+		 \Delta x $ \\ & \\
+		 
+	Allgemein& :	$ f(x_{1} + \Delta x) = f(x_{1}) + \frac{f'(x_{1}) + 2 \cdot f'(x_{1} + \frac{1}{n} \cdot\Delta x)  + ... + 2 \cdot f'(x_{1} + \frac{n - 1}{n} \cdot\Delta x)+ f'(x_{1} + \Delta x) }{2 \cdot n} \cdot
+		 \Delta x $ \\ & \\
+	
+	Kurz &:  $f(x_{1} + \Delta x) = f(x_{1}) + \frac{\Delta x}{2 \cdot n} \cdot ( \sum\limits^{n - 1}_{i = 0} f'(x_{1} + \frac{i}{n} \cdot\Delta x) + \sum\limits^{n}_{i = 1} f'(x_{1} + \frac{i}{n} \cdot\Delta x)) $ \\ & \\
+         
+		 
+		 
+	\hline
+	 
+\end{tabular}
+\end{center}
+
+%	Kurz : $$ f(x_{1} + \Delta x) = f(x_{1}) + \frac{1}{2 \cdot n} \cdot ( \sum^{n - 1}_{i = 0} f'(x_{1} + \frac{i}{n} \cdot\Delta x) + \sum^{n}_{i = 1} f'(x_{1} + \frac{i}{n} \cdot\Delta x)) \cdot \Delta x $$
+
+\textbf{Bemerkung :} Die Zahl n ($ n \in \mathbbm{N} $) gibt die Anzahl der gesetzen Stütpunkte an.\\ \\
+
+
+Da allerdings das Setzen von Stützpunkten erneut eine Menge Rechenleistung des CPUs verbrauchen würde, wird dieses Verfahren in dieser Simulation nicht angewendet.
+
+\subsection{Programiertechnische Anwendung}
+
+Die Programiertechnische Anwendung gestaltet sich denkbar einfach: Man addiert zuerst die Hälfte der Ableitung multipliziert mit einer Konstante, berechnet dann die neuen Beschleunigungsvektoren und addiert zum Schluss den zweiten Teil der Ableitungen:
+
+
+\tiny
+\lstset{language=C++}
+\lstinputlisting[breaklines=true, numbers=left, numberstyle=\tiny, firstline=601,  lastline=627 , frame=tlrb, caption={Quellcodeausschnitt aus einer bearbeitete Version von Physics.cpp, Zeile 601 - 627}]{Quellcode/bearbeitetePhysics.cpp}
+\normalsize
+
+
+\newpage
+
+\section{Versuchsaufbauten}
+
+\subsection{Wasserstoffatom}
+
+Der einfachste Versuchsaufbau ist wohl ein Elektron, das um das 1000-fach schwerere Proton kreist. Natürlich ist dies nur eine primitive Vereinfachung des Wasserstoffatoms, welche alle bohrsche Quantenbedingungen und sonstige Atomvorstellung außen vor lässt. Zu sehen ist allerdings die Ellipsenbahn, auf der sich das Elekton bewegt:
+
+\begin{figure}[h]
+	\centering
+	\epsfig{file=graphics/El_Pr_white.eps}
+	\caption{Orbit-Versuch}
+	\label{fig:Orbit-Versuch}
+\end{figure}
+
+Man beachte, dass jeweils die Impulse und die Kräfte entgegengesetzt sind, und vom Betrag her gleich groß sind.\\
+(Dieser Versuch ist auf der CD unter dem Verzeichnis \textsl{Beispielszenen/H-Atom.sim} zu finden)
+
+\subsection{Rutherford-Versuch}
+
+Im Jahre 1911 beschoss Ernest Rutherford eine dünne Goldfolie mit Alphateilchen. Aus diesen Ergebnissen begründete er ein neues nach ihm benanntes Atommodell. Wenn man das Experiment genauer unter die Lupe nimmt, erkennt man, dass Rutherford positiv geladene Teilchen auf einen Atomkern schleuderte, welche von der \textsl{Coloumb-Kraft} abgelenkt wurden. Ersetzt man die Alphateilchen durch Elektronen und gibt dem Atomkern eine negative Ladung, lässt sich auch die Rutherfordstreuung mit der Simulation zeigen.\\
+(Zu finden auf der CD unter \textsl{Beispielszenen/RutherfordEx.sim})
+
+\begin{figure}[h]
+	\centering
+		\epsfig{file=graphics/rutherfordEx_whiteEx.eps}
+	\caption{Rutherfordstreuung}
+	\label{fig:Rutherfordstreuung}
+\end{figure}
+
+\subsection{WIEN-Filter}
+
+Ein ebenso interessanter Versuch ist der \textsl{Wien-Filter}. Dieses Gerät wird in der experimentalen Physik dazu verwendet, Teilchen mit der falschen Geschwindigkeit aus einem Strahl heraus zu sieben. 
+
+\begin{figure}[h]
+	\centering
+		\epsfig{file=graphics/wien_white.eps}
+	\caption{WIEN-Filter}
+	\label{fig:WIEN-Filter}
+\end{figure}
+
+Man beachte, dass die Bahn des Elektrons nicht exakt geradlinig ist, was daran liegt, dass die Anfangsgeschwindigkeit nicht 100-prozentig stimmt. Deshalb pendelt es immer zwischen der Übermacht der Lorenzkraft und der elektrischen Kraft.\\
+(Zu finden auf der CD unter \textsl{Beispielszenen/wien-filter.sim})
+
+\newpage
+
+\section{Grenzen computergestützter Simulationen}
+
+Doch leider wird man bei der Entwicklung computergestützter Simulationen immer wieder mit der Tatsache konfrontiert, wie schnell die begrenzte Rechenleistung eines Heim-PCs und die schwierige Beschreibung der Natur in manchen Teilbereichen jemanden an die Grenzen der physikalischen Simualtionstechnik treibt. Simulationen beispielsweise von Interferenzen an einem Doppelspalt würden bei einer üblich hohen Auflösung in Elementarwellen, die CPU-Leistung um ein Vielfaches überanspruchen. Vor allem wenn es darum geht, ganze Volumina mit Werten zu füllen, wie es z.B. bei dem Magnetfeld eines Helmholzspulenpaares der Fall wäre. Aus diesem und anderen Gründen wurde auf dieses Gerät im Programm verzichtet. Allein das Berücksichtigen des Luftwiderstandes bei mechanischen Versuchen würde jede Computersimualtion den Gar ausmachen. Ebenfalls ist man nie davor gewappnet, irgendwelche Umwelteinflüsse zu vergessen. Was die Frage der Verlässlichkeit nicht zu gunsten der Simulationen beantwortet. Betrachtet man die heißelbergsche Unschärferelation, dann wären die meisten Versuche mit Mirkoteilchen nicht mehr ganz so trivial zu beschreiben ,wie es der Computer mit seinen Schaltkreisen vermag.
+Daher ist nicht jedes Gebiet der Physik gleich gut geeignet, es in ein PC-Programm zu verpacken.
+
+%Heißelbergsche Unschärferelation\\
+%Sachen die mit einer Formel nicht greifbar sind

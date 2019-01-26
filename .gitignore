@@ -1,0 +1,7 @@
+*.rar
+*.ps
+*.
+**/logfile/*.html
+Programm/EB_Simulation/Debug
+Programm/EB_Simulation/Release
+*.avi

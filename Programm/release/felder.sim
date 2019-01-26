@@ -1,0 +1,96 @@
+This_is_a_EB-Simulation_file 
+version : 1;
+
+Protone 
+{ 
+   name : Proton0  ;
+   position : 0.000000, 0.000000, -8.416397;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+} 
+
+Protone 
+{ 
+   name : Proton1  ;
+   position : 4.610294, 0.000000, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+} 
+
+Electrone 
+{ 
+   name : Elektron0  ;
+   position : -4.111799, 0.000000, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+} 
+
+Electrone 
+{ 
+   name : Elektron4 ;
+   position : 0.000000, -1.574539, 8.183556;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+} 
+
+ElectricalField 
+{ 
+   name : ElectricalField0  ;
+   position : 0.000000, 0.000000, 6.301380;
+   viewAt : 1.816452, 1.729857, -4.219989;
+   vector: 0.000000, 0.000000, 0.000000;
+   bSelected : 0;
+   bShowVector : 0;
+} 
+
+ElectricalField 
+{ 
+   name : ElectricalField2 ;
+   position : 4.818001, 0.000000, -5.692801;
+   viewAt : -3.071716, 1.897740, -0.996961;
+   vector: 0.000000, 0.000000, 0.000000;
+   bSelected : 0;
+   bShowVector : 1;
+} 
+
+MagneticalField 
+{ 
+   name : MagneticalField0  ;
+   position : -8.213168, -1.447062, -2.290566;
+   viewAt : -1.889504, 4.770077, -2.705832;
+   vector: 0.000000, 0.000000, 0.000000;
+   bSelected : 0;
+   bShowVector : 0;
+} 
+
+GravityField 
+{ 
+   name : GravityField0;
+   position : 0.000000, 4.270369, 0.000000;
+   viewAt : 0.000010, -1.284688, 0.000001;
+   vector: 0.000000, 0.000000, 0.000000;
+   bSelected : 0;
+   bShowVector : 0;
+} 
+
+file closed;

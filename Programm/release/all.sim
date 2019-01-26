@@ -1,0 +1,73 @@
+This_is_a_EB-Simulation_file 
+version : 4 ;
+
+Protone 
+{ 
+   name : Proton0 ;
+   position : 0.000000, 0.000000, -8.416398;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+} 
+
+Protone 
+{ 
+   name : Proton1 ;
+   position : 4.610294, 0.000000, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+} 
+
+Electrone 
+{ 
+   name : Elektron0 ;
+   position : -4.111799, 0.000000, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+} 
+
+ElectricalField 
+{ 
+   name : ElectricalField0 ;
+   position : 0.000000, 0.000000, 6.301380;
+   viewAt : 1.816452, 1.000000, -4.219989;
+   vector: 0.000000, 0.000000, 0.000000;
+   bSelected : 0;
+   bShowVector : 1;
+} 
+
+MagneticalField 
+{ 
+   name : MagneticalField0 ;
+   position : -8.213168, -1.447062, -2.290566;
+   viewAt : -1.889504, 4.770077, -2.705832;
+   vector: 0.000000, 0.000000, 0.000000;
+   bSelected : 0;
+   bShowVector : 1;
+} 
+
+GravityField 
+{ 
+   name : GravityField0;
+   position : 0.000000, 4.270369, 0.000000;
+   viewAt : 0.000010, -1.284688, 0.000001;
+   vector: 0.000000, 0.000000, 0.000000;
+   bSelected : 0;
+   bShowVector : 1;
+} 
+
+file closed;

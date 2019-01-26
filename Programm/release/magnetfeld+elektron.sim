@@ -1,0 +1,27 @@
+This_is_a_EB-Simulation_file 
+version : 2;
+
+Electrone 
+{ 
+   name : Elektron0   ;
+   position : 8.489060, 0.000000, 0.000000;
+   speed : -0.200000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 1;
+   bShowTrace : 0;
+} 
+
+MagneticalField 
+{ 
+   name : MagneticalField0   ;
+   position : 0.000000, 0.000000, -7.913409;
+   viewAt : 0.000000, 0.000000, 1.000000;
+   vector: 0.000000, 0.000000, 0.000000;
+   bSelected : 0;
+   bShowVector : 0;
+} 
+

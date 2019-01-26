@@ -1,0 +1,56 @@
+This_is_a_EB-Simulation_file 
+version : 4 ;
+
+Protone 
+{ 
+   name : Proton0;
+   position: 6.065236, 0.000000, -0.022555;
+   speed: -0.001077, 0.000000, -0.001399;
+   speedingUp: 0.012721, 0.000000, -0.008563;
+   bDriven: 1;
+   bDriver: 1;
+   bSelected: 0;
+   bShowSpeed: 0;
+   bShowSpeedup: 0;
+} 
+
+Protone 
+{ 
+   name : Proton1;
+   position: -0.027435, 0.000000, 5.260745;
+   speed: -0.000345, 0.000000, 0.000420;
+   speedingUp: -0.009416, 0.000000, 0.012620;
+   bDriven: 1;
+   bDriver: 1;
+   bSelected: 0;
+   bShowSpeed: 0;
+   bShowSpeedup: 0;
+} 
+
+Electrone 
+{ 
+   name : Elektron0;
+   position: 7.964275, 0.000000, 20.132517;
+   speed: 0.199539, 0.000000, 2.259977;
+   speedingUp: -0.002093, 0.000000, -0.005047;
+   bDriven: 1;
+   bDriver: 1;
+   bSelected: 0;
+   bShowSpeed: 0;
+   bShowSpeedup: 0;
+} 
+
+Electrone 
+{ 
+   name : Elektron1;
+   position: 25.432257, 0.000000, -20.351351;
+   speed: 1.222087, 0.000000, -1.280489;
+   speedingUp: -0.001212, 0.000000, 0.000990;
+   bDriven: 1;
+   bDriver: 1;
+   bSelected: 0;
+   bShowSpeed: 0;
+   bShowSpeedup: 0;
+} 
+
+file closed;

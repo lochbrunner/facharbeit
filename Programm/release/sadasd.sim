@@ -1,0 +1,36 @@
+This_is_a_EB-Simulation_file 
+version : 2;
+
+Electrone 
+{ 
+   name : Elektron0   ;
+   position : 0.000000, 0.000000, -20.000000;
+   speed : 0.000000, 0.000000, 0.200000;
+   speedingUp : 0.002446, -0.000004, -0.003737;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 1;
+} 
+
+MagneticalField 
+{ 
+   name : MagneticalField0   ;
+   position : 0.000000, -0.017855, 6.966903;
+   viewAt : 0.000010, 0.095162, 0.000010;
+   vector: 0.000000, 0.000000, 0.000000;
+   bSelected : 0;
+   bShowVector : 1;
+} 
+
+GravityField 
+{ 
+   name : GravityField0;
+   position : -4.304718, 0.000000, 0.000000;
+   viewAt : 1.550187, -0.000450, 0.000001;
+   vector: 0.000000, 0.000000, 0.000000;
+   bSelected : 0;
+   bShowVector : 1;
+} 
+

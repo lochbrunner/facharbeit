@@ -1,0 +1,151 @@
+This_is_a_EB-Simlation_file 
+version : 4;
+
+Protone 
+{ 
+   name : Proton0    ;
+   position : 4.563341, 0.000000, -15.876943;
+   speed : 0.000183, 0.000000, 0.000116;
+   speedingUp : -0.014861, 0.000000, -0.000663;
+   bDriven : 0;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 1;
+} 
+
+Protone 
+{ 
+   name : Proton0    ;
+   position : 4.563341, 2.208652, -6.276961;
+   speed : 0.000183, 0.000000, 0.000116;
+   speedingUp : -0.014861, 0.000000, -0.000663;
+   bDriven : 0;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 1;
+} 
+
+Protone 
+{ 
+   name : haupt  ;
+   position : 0.497078, 2.208652, -7.390124;
+   speed : 0.000000, 0.000000, -0.000018;
+   speedingUp : 0.000000, 0.000000, -0.018310;
+   bDriven : 0;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+} 
+
+Protone 
+{ 
+   name : Proton1    ;
+   position : 0.497078, 0.000000, 0.000055;
+   speed : -0.068205, 0.000000, 0.000018;
+   speedingUp : 0.000000, 0.000000, 0.018310;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 0;
+} 
+
+Protone 
+{ 
+   name : Proton0    ;
+   position : 0.000000, 0.000000, -8.416395;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+} 
+
+Protone 
+{ 
+   name : das   ;
+   position : 4.610294, 0.000000, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+} 
+
+Electrone 
+{ 
+   name : Elektron0    ;
+   position : -3.627500, 0.000000, -16.242226;
+   speed : -0.068969, 0.000000, -0.115758;
+   speedingUp : 0.014861, 0.000000, 0.000663;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 1;
+} 
+
+Electrone 
+{ 
+   name : Neben Elektron   ;
+   position : -3.627500, 2.209000, -6.642240;
+   speed : -0.068969, 0.000000, -0.115758;
+   speedingUp : 0.014861, 0.000000, 0.000663;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 1;
+   bShowSpeedingUp : 1;
+} 
+
+Electrone 
+{ 
+   name : Elektron0    ;
+   position : -4.111799, 0.000000, 0.000000;
+   speed : 0.100000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+} 
+
+ElectricalField 
+{ 
+   name : ElectricalField0    ;
+   position : 0.890885, 0.000000, 6.301380;
+   viewAt : 1.816452, 1.000000, -4.219989;
+   vector: 0.000000, 0.000000, 0.000000;
+   bSelected : 0;
+   bShowVector : 0;
+} 
+
+MagneticalField 
+{ 
+   name : MagneticalField0    ;
+   position : -8.213168, -1.447062, -2.290566;
+   viewAt : -1.889504, 4.770077, -2.705832;
+   vector: 0.000000, 0.000000, 0.000000;
+   bSelected : 0;
+   bShowVector : 0;
+} 
+
+GravityField 
+{ 
+   name : GravityField0;
+   position : 0.000000, 4.270369, 0.000000;
+   viewAt : 0.000010, -1.284688, 0.000001;
+   vector: 0.000000, 0.000000, 0.000000;
+   bSelected : 0;
+   bShowVector : 0;
+} 
+
+file closed;

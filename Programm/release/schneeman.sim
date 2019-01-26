@@ -1,0 +1,308 @@
+This_is_a_EB-Simulation_file 
+version : 2;
+
+Cuboid 
+{ 
+   name : DefaultCuboid1;
+   position : -2.461140, 5.717375, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   rotation : 0.000000, 0.000000, 0.000000;
+   rotationSpeed : 0.000000, 0.000000, 0.000000;
+   rotationSpeedingUp : 0.000000, 0.000000, 0.000000;
+   size : 0.399825, 0.090042, 0.506472;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowCharges : 0;
+   mass : 1.000000;
+   charges : 1.000000;
+   numParts : 2;
+   virtualCharge  { 
+      id : 0;
+      position : 0.000000, 0.000000, -1.#QNAN0;
+      speed : 2.000000, 0.000000, 0.000000;
+      speedingUp : -1.#QNAN0, 0.000000, 0.000000;
+      charges : 0.000000;
+   } 
+   virtualCharge  { 
+      id : 1;
+      position : 2.000000, 0.000000, -171299065659922500000000000000000000000.000000;
+      speed : 0.000000, 0.000000, 0.000000;
+      speedingUp : -170146355474918160000000000000000000000.000000, 0.000000, 0.000000;
+      charges : 2.000000;
+   } 
+} 
+
+Sphere 
+{ 
+   name : DefaultSphere0 ;
+   position : -3.598075, 0.466386, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 2.535240;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+
+Sphere 
+{ 
+   name : DefaultSphere1 ;
+   position : -3.475337, 4.113119, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 1.659511;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+
+Sphere 
+{ 
+   name : DefaultSphere2 ;
+   position : -3.367742, 6.139130, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 1.137966;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+
+Sphere 
+{ 
+   name : DefaultSphere3 ;
+   position : -3.425468, 4.482000, -1.881000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 0.608000;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+
+Sphere 
+{ 
+   name : DefaultSphere4 ;
+   position : -3.425468, 4.482000, 1.881000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 0.608000;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+
+Sphere 
+{ 
+   name : DefaultSphere5 ;
+   position : -2.325809, 6.133274, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 0.222456;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+
+Sphere 
+{ 
+   name : DefaultSphere6 ;
+   position : -2.459173, 6.530000, -0.400000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 0.126624;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+
+Sphere 
+{ 
+   name : DefaultSphere7 ;
+   position : -2.459173, 6.530213, 0.400000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 0.126624;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+
+Sphere 
+{ 
+   name : DefaultSphere9 ;
+   position : -3.533978, 6.457753, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 1.097462;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+
+Sphere 
+{ 
+   name : DefaultSphere10 ;
+   position : -3.407528, 4.356574, -2.700000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 0.520117;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+
+Sphere 
+{ 
+   name : DefaultSphere11 ;
+   position : -3.407528, 4.356574, 2.700000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 0.520117;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+
+Sphere 
+{ 
+   name : DefaultSphere12 ;
+   position : -3.417155, 4.144115, 3.400000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 0.455635;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+
+Sphere 
+{ 
+   name : DefaultSphere13 ;
+   position : -3.417155, 4.144115, -3.400000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 0.455635;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+
+Sphere 
+{ 
+   name : DefaultSphere14 ;
+   position : -1.995198, 4.798388, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 0.095071;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+
+Sphere 
+{ 
+   name : DefaultSphere15 ;
+   position : -1.817824, 3.757871, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 0.095071;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+
+Sphere 
+{ 
+   name : DefaultSphere16 ;
+   position : -1.834817, 4.322569, 0.000000;
+   speed : 0.000000, 0.000000, 0.000000;
+   speedingUp : 0.000000, 0.000000, 0.000000;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+   radius : 0.095071;
+   mass : 1.000000;
+   charges : 1.000000;
+} 
+

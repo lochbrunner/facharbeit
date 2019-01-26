@@ -1,0 +1,57 @@
+This_is_a_EB-Simulation_file 
+version : 2;
+
+Protone 
+{ 
+   name : Proton0 ;
+   position : 16.413258, 0.000000, -11.259907;
+   speed : 0.000017, 0.000000, -0.000117;
+   speedingUp : 0.000607, 0.000000, -0.000045;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+} 
+
+Electrone 
+{ 
+   name : Elektron0 ;
+   position : 185.917603, 0.000000, -8.731852;
+   speed : 1.278351, 0.000000, 0.058409;
+   speedingUp : 0.000026, 0.000000, 0.000002;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+} 
+
+Electrone 
+{ 
+   name : Elektron1 ;
+   position : 58.032951, 0.000000, -14.568274;
+   speed : 1.280153, 0.000000, 0.058341;
+   speedingUp : -0.000633, 0.000000, 0.000043;
+   bDriven : 1;
+   bDriver : 1;
+   bSelected : 0;
+   bShowSpeed : 0;
+   bShowSpeedingUp : 0;
+   bShowTrace : 0;
+} 
+
+Emitter 
+{ 
+   name : Emitter0;
+   position : 0.000000, 0.000000, -16.436998;
+   viewAt : 1.287612, 0.000000, 0.000000;
+   vector: 1.000010, 0.000000, 0.000000;
+   randomVector: 0.000000, 0.000000, 0.000000;
+   bShowVector : 1;
+   timeToWait : 100;
+   elementType : 1;
+} 
+

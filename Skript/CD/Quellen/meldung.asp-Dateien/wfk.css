@@ -1,0 +1,234 @@
+/* WFK CSS by Geraldo Hoffmann, 31.01.2004*/
+
+body {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 100%;
+color : #000000;
+background-color : #ffffff;
+background-image: url(../pics/bg_body.gif);
+margin: 0px 0px 0px;
+}
+
+table {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+td {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.nav {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 80%;
+color : #3A6BB6;
+font-weight: bold;
+line-height : 150%;
+text-decoration: none;
+background-color : transparent;
+}
+
+.nav:link {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 80%;
+color :#3A6BB6;
+font-weight: bold;
+text-decoration: none;
+background-color : transparent;
+}
+
+.nav:visited {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 80%;
+color : #666666;
+font-weight: bold;
+text-decoration: none;
+background-color : transparent;
+}
+
+.nav:hover {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 80%;
+color : #003366;
+font-weight: bold;
+text-decoration: underline;
+background-color : transparent;
+}
+
+.nav:active {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 80%;
+color : #999999;
+text-decoration: none;
+background-color : transparent;
+}
+
+.subnav {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 80%;
+color : #3A6BB6;
+font-weight: normal;
+line-height : 130%;
+text-decoration: none;
+background-color : transparent;
+}
+
+.subnav:link {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 80%;
+color :#3A6BB6;
+font-weight: normal;
+text-decoration: none;
+background-color : transparent;
+}
+
+.subnav:visited {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 80%;
+color : #666666;
+font-weight: normal;
+text-decoration: none;
+background-color : transparent;
+}
+
+.subnav:hover {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 80%;
+color : #003366;
+font-weight: normal;
+text-decoration: underline;
+background-color : transparent;
+}
+
+.subnav:active {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 80%;
+color : #999999;
+text-decoration: none;
+background-color : transparent;
+}
+
+h1 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #4f4f4f;
+	font-weight: bold;
+	line-height : 140%;
+	background-color : #ffffff;
+	margin-top: 15px;
+}
+
+.h1 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #4f4f4f;
+	font-weight: bold;
+	background-color : #ffffff;
+}
+
+.bdw {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	color: #006699;
+	font-weight: bold;
+	background-color : #eeeeee;
+         padding: 2px 3px 2px 3px;
+}
+
+p {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #000000;
+}
+
+.p {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #000000;
+}
+
+.ptop {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #000000;
+	background-image: url(../pics/bg_brot.gif);
+
+}
+
+.pkunststart {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-image: url(../pics/kunst_start_bg.jpg);
+         background-repeat: no-repeat;
+         background-position: center;
+
+}
+
+.pintstart {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-image: url(../pics/int_welt.gif);
+         background-repeat: no-repeat;
+         background-position: center;
+
+}
+
+.bu {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 60%;
+	color: #000000;
+}
+hr {
+  border: 0 solid;
+  color: #ccc;
+  background-color: Gray;
+  height: 1px;
+ }
+ul{
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+list-style-image: url(../pics/li.gif);
+}
+
+li {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 80%;
+color: #000000;
+}
+
+small {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+strong,em {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+code {
+font-family : 'Courier new',monospace;
+font-size : 10px;
+color : #990099;
+background-color : #d6d6d6;
+}
+
+a:link {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #1378BC;
+	text-decoration: underline;
+	}
+
+a:visited {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #003399;
+	text-decoration: underline;
+	}
+
+a:hover {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #006699;
+	text-decoration: none;
+	}
+
+a:active {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #0033cc;
+	text-decoration: underline;
+	}

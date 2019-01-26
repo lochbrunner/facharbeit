@@ -1,0 +1,113 @@
+/* WFK - Druck CSS by Geraldo Hoffmann, 31.01.2004*/
+
+body {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 100%;
+color : #000000;
+background-color : #ffffff;
+margin: 0px 0px 0px;
+}
+
+table {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+td {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #4f4f4f;
+	font-weight: bold;
+	line-height : 140%;
+	background-color : transparent;
+	margin-top: 15px;
+}
+
+.h1 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #000000;
+	font-weight: bold;
+	background-color : #ffffff;
+}
+
+p {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #000000;
+}
+
+.p {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #000000;
+}
+
+.ptop {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #000000;
+	background-image: url(../pics/bg_brot.gif);
+	
+}
+.bu {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 60%;
+	color: #000000;
+}
+ul{
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+list-style: square;
+}
+
+li {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 80%;
+color: #000000;
+}
+small {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+strong,em {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+code {
+font-family : 'Courier new',monospace;
+font-size : 10px;
+color : #990099;
+background-color : #d6d6d6;
+}
+
+a:link {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+	}
+	
+a:visited {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+	}
+
+a:hover {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+	}
+	
+a:active {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+	}
+.subnav {
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 80%;
+color : #000000;
+}
